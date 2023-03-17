@@ -3,7 +3,6 @@ import app_des from "./app.png";
 import dnc_mu from "./dnc-mu-credit.png";
 import tech_logo from "./tech_logo.png";
 import dnc_logo from "./dnc_logo.svg";
-import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import web_logo from "./web_logo.svg";
 import quotes from "./quotes.svg";
@@ -32,7 +31,6 @@ export {
   dnc_mu,
   tech_logo,
   dnc_logo,
-  dropbox,
   logo,
   web_logo,
   quotes,
