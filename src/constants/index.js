@@ -1,4 +1,4 @@
-import { chalitha, tiran, facebook, instagram, linkedin, twitter, dnc, dnc_mu, Filter, shield, Discover, januda  } from "../assets";
+import { chalitha, tiran, facebook, instagram, linkedin, twitter, dnc, dnc_mu, filter, shield, discover, januda  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,7 +22,7 @@ export const navLinks = [
 export const features = [
   {
     id: "support-feature",
-    icon: Discover,
+    icon: discover,
     title: "Fast Support",
     content:
       "Our supporters help your any question or problem in our any platform."
@@ -36,7 +36,7 @@ export const features = [
   },
   {
     id: "interactive-feature",
-    icon: Filter,
+    icon: filter,
     title: "Interactive UI/UX",
     content:
       "Our apps has fully optimized ui/ux and user friendly animations."
@@ -145,17 +145,17 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "insta",
+    id: "instagram",
     icon: instagram,
     link: "https://www.instagram.com/dncmediaunit",
   },
   {
-    id: "fb",
+    id: "facebook",
     icon: facebook,
     link: "https://www.facebook.com/DNCMediaUnit",
   },
   {
-    id: "twit",
+    id: "twitter",
     icon: twitter,
     link: "https://twitter.com/DNCMediaUnit",
   },

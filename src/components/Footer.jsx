@@ -13,6 +13,7 @@ const Footer = () => {
           whileInView={{ scale: 1 }}
           initial={{ scale: 0 }}
           src={web_logo} alt="web_logo"
+          title="Media Unit web/app team of debarawewa college"
           className="w-[435px] h-[90px] object-contain " />
           <motion.p
           whileInView={{ opacity: 1, y: 0  }}
@@ -59,6 +60,7 @@ const Footer = () => {
             key={social.id}
             src={social.icon}
             alt={social.id}
+            title={social.id}
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}

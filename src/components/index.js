@@ -8,6 +8,8 @@ import Team from "./Team";
 import Clients from "./Clients";
 import Platform from "./Platform";
 import Footer from "./Footer";
+import Site from "./Site";
+import Launch from "./Launching_soon";
 
 export {
     Home,
@@ -19,5 +21,7 @@ export {
     Team,
     Clients,
     Platform,
-    Footer
+    Footer,
+    Site,
+    Launch
 };

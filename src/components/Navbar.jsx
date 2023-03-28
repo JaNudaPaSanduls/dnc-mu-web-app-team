@@ -10,8 +10,7 @@ const Navbar = () => {
   return (
     <nav
       className="w-full flex py-6 justify-between
-        items-center navbar"
-    >
+        items-center navbar">
       <a href="http://">
         <motion.img
          animate={{ y: 0, scale: 1.1 }}
@@ -31,7 +30,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px]
                         ${
                           index === navLinks.length - 1 ? "mr-0" : "mr-10"
-                        } text-white`}
+                        } text-white menu-item`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </motion.li>

@@ -7,9 +7,9 @@ import logo from "./logo.svg";
 import web_logo from "./web_logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
-import Filter from "./Filter.svg";
-import shield from "./Shield.svg";
-import Discover from "./Discovery.svg";
+import filter from "./Filter.svg";
+import shield from "./shield.svg";
+import discover from "./discovery.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -35,9 +35,9 @@ export {
   web_logo,
   quotes,
   robot,
-  Filter,
+  filter,
   shield,
-  Discover,
+  discover,
   menu,
   close,
   google,
@@ -51,5 +51,5 @@ export {
   twitter,
   chalitha,
   januda,
-  tiran,
+  tiran
 };
