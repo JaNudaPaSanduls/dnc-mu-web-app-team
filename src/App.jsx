@@ -4,7 +4,7 @@ const App = () => {
   let a = 1;
   return (
     <div>
-      {a==0 ? <Site /> : <Launch />} 
+      {a==1 ? <Site /> : <Launch />} 
     </div>
   )
 }
